@@ -5,7 +5,7 @@ describe Post do
         post = Post.create(title: "hello world")
     end
 
-    it 'exists' do 
+    it 'exists' do
         expect(post).to be_valid
     end
 end
